@@ -46,7 +46,7 @@ namespace NewWS
         [WebMethod]
         public string SumaLista()
         {
-            //Comentario para ejemplo AzuDev
+            //Comentario para ejemplo AzureDevOps
             List<int> lstNum = new List<int>(new int[] { 3, 6, 7, 9, 1 });
             return Add(lstNum).ToString();
         }
